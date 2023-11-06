@@ -1,6 +1,6 @@
 # TDP Tez Notes
 
-The version 0.9.1-1.0 of Apache Hive is based on the `branch-0.9.1` tag of the Apache [repository](https://github.com/apache/tez/tree/branch-0.9.1).
+The version 0.9.1-1.1 of Apache Hive is based on the `branch-0.9.1` tag of the Apache [repository](https://github.com/apache/tez/tree/branch-0.9.1).
 
 ## Jenkinfile
 
@@ -12,7 +12,7 @@ The file `./Jenkinsfile-sample` can be used in a Jenkins / Kubernetes environmen
 mvn clean install -pl \!tez-ui -Phadoop28 -P\!hadoop27 -DskipTests
 ```
 
-The command generates a `.tar.gz` file of the release at `./tez-dist/target/tez-0.9.1-1.0.tar.gz`.
+The command generates a `.tar.gz` file of the release at `./tez-dist/target/tez-0.9.1-1.1.tar.gz`.
 
 ## Testing parameters
 
